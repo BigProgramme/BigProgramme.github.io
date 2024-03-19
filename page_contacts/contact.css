@@ -1,0 +1,97 @@
+/* <!-- SAINT HERAUD MBOUMA --> */
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d2cccc;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 15px auto;
+    background-color: #faf7f7;
+    padding: 50px;
+    border-radius: 10px; 
+    
+  }
+
+  .container:hover{
+    cursor: pointer;
+    box-shadow: 10px;
+  }
+
+
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  textarea{
+    height: 110px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+
+ 
+  
+  button:hover {
+    background-color: #8bbff7;
+  }
+
+
+#result{
+  background-color: #d6e4f3;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+body{
+  display: block;
+}
+  footer{
+    background-color: #878484;
+    padding: 15px 0 40px;
+    text-align: center;
+}
+
+footer ion-icon{
+    font-size: 40px;
+    
+}
+
+
+footer h5{
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+
+}

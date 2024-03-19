@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- SAINT HERAUD MBOUMA -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saintHeraudVousContacte</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Laissez-moi vos coordonnées et un message</h2>
+        <p>Je vous rappellerai dès que possible pour qu'on discute!</p>
+        
+        <form>
+
+          <div class="form-group">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+            <span id="nom-error" class="error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom">
+            <span id="prenom-error" class="error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Adresse Email :</label>
+            <input type="email" id="email" name="email">
+            <span id="email-error" class="error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="telephone">Numéro de Téléphone :</label>
+            <input type="tel" id="telephone" placeholder="07-88-88-88-88" name="telephone">
+            <span id="telephone-error" class="error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message :</label>
+            <textarea id="message" name="message"></textarea>
+            <span id="message-error" class="error"></span>
+          </div>
+
+        
+            <div class="form-group">
+                <button type="submit">Envoyer</button>
+              </div>
+        </form>
+
+        <!-- Ce div va afficher les données saisies par les utilisateurs -->
+        
+
+      </div>
+      <!-- Ce div va afficher les données saisies par les utilisateurs -->
+      
+        <!-- <h4>Les contacts</h4> -->
+        <div id="result">
+          
+        </div>
+       
+     
+        <div id="graphique">
+          <!-- <canvas id="myChart" width="100" height="50"></canvas> -->
+         </div>
+      <footer>
+        <h5>&copy; 2024 Saint Heraud MBOUMA</h5>
+      </footer>
+   
+    
+
+    <script src="contact.js"></script>
+</body>
+</html>
